@@ -4,8 +4,9 @@ export const GlobalStyle = createGlobalStyle`
 :root{
     --background-color: #F0F2F5;
     --red:#e52e4d;
-    --blue:#5429cc;
+    --blue:#5429CC;
     --blue-light:#6933ff;
+    --green:#33cc95;
     --text-title:#363f5f;
     --text-body:#969cB3;
     --background:#f0f2f5;
@@ -23,7 +24,7 @@ body{
     -webkit-font-smoothing: antialiased;
 
 }
-body, input,textarea, button{
+body, input,textarea, button, main{
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
 }
